@@ -1,16 +1,13 @@
 export default {
-  base: "/vitepress-homework/", 
   title: "我的作业文档",
   description: "学习作业提交",
-
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
-      { text: "LeetCode", link: "/leetcode/" },
-      { text: "课堂练习", link: "/practice/" },
-      { text: "大作业", link: "/project/" }
+      { text: "LeetCode", link: "/leetcode/1041" },
+      { text: "课堂练习", link: "/practice/homework" },
+      { text: "大作业", link: "/project/topic" }
     ],
-
     sidebar: {
       "/leetcode/": [
         {
