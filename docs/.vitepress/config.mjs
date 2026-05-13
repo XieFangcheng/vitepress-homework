@@ -1,4 +1,5 @@
 export default {
+  base: "/vitepress-homework/", 
   title: "我的作业文档",
   description: "学习作业提交",
 
